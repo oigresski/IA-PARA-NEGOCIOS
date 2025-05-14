@@ -18,9 +18,7 @@ ia-estrategias/
 ├─ backend/ → main.py (FastAPI)
 └─ README.md
 
-r
-Copiar
-Editar
+
 
 ## 💡 ¿Cómo ejecutarlo?
 
@@ -30,18 +28,15 @@ cd backend
 .\.venv\Scripts\Activate.ps1
 uvicorn main:app --reload --port 8000
 2. Iniciar frontend
-bash
-Copiar
-Editar
+
 cd frontend
 .\.venv\Scripts\Activate.ps1
 streamlit run app.py
 3. Consultar modelo local
 La app interactúa con llama3 vía Ollama:
 
-bash
-Copiar
-Editar
+
+
 ollama pull llama3
 🔐 Privacidad
 Toda la ejecución es local: no se almacenan datos ni se envía información a la nube.
